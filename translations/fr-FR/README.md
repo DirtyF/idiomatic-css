@@ -79,7 +79,7 @@ Astuce: Paramètrez votre éditeur pour qu'il vous fournisse des raccourcis clav
 /* Commentaire simple */
 ```
 
-#### SCSS exemple :
+#### Exemple en SCSS :
 
 ```scss
 // ==========================================================================
