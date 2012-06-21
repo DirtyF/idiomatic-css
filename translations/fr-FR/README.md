@@ -56,7 +56,7 @@ La façon de commenter doit être simple et similaire dans toute base de code.
 * Placez les commentaires sur une nouvelle ligne au-dessus de leur sujet,
 * Evitez les commentaires en fin de ligne,
 * Gardez une longueur de ligne de taille raisonnable, par exemple 80 caractères,
-* Utilisez les commentaires comme bon vous semble pour diviser le code CSS en parties distinctes,
+* Faites ample usage des commentaires pour diviser le code CSS en parties distinctes,
 * Rédigez vos commentaires avec des majuscules et des minuscules et gardez une indentation constante pour le texte.
 
 Astuce: Paramètrez votre éditeur pour qu'il vous fournisse des raccourcis claviers qui produisent des commentaires conventionnels.
@@ -90,7 +90,7 @@ Astuce: Paramètrez votre éditeur pour qu'il vous fournisse des raccourcis clav
 // ==========================================================================
 
 //
-// Groupe de bloc de commentaires.
+// Bloc de groupe de commentaires.
 // Parfait pour les explications sur plusieurs lignes
 // et la documentation
 
@@ -103,9 +103,10 @@ Astuce: Paramètrez votre éditeur pour qu'il vous fournisse des raccourcis clav
 
 Le format de code choisi doit assurer: une bonne lisibilité, des commentaires clairs, une réduction des probabilités d'insertion accidentelle d'erreurs, et la production de fichiers diff et de résolution des problèmes pratiques.
 
-1. Un seul sélecteur par ligne dans les régles à plusieurs sélecteurs,
+1. Un seul sélecteur par ligne dans les règles à plusieurs sélecteurs,
 2. Un espace avant l'accolade ouvrante d'une règle,
 3. Une déclaration par ligne dans un bloc de déclarations,
+4. Un niveau d'indentation pour chaque déclaration,
 5. Un espace après les deux points d'une déclaration,
 6. Ajoutez toujours un point-virgule à la fin de la dernière déclaration d’un bloc,
 7. Fermez l'accolade d'une règle au même niveau que le premier caractère de la règle,
@@ -144,7 +145,7 @@ L'ordre des déclarations doit toujours obéir à la même règle. Je préfère 
 
 L'ordre alphabétique est également très utilisé, mais le problème est qu'il sépare les propriétés liées. Par exemple, les décalages de positionnement ne sont plus regroupés ensemble et les propriétés du modèle de boîte se retrouvent éparpillées dans le bloc de déclaration.
 
-#### Exceptions et légèrs écarts
+#### Exceptions et légers écarts
 
 De gros blocs de déclarations uniques peuvent utiliser un format légèrement différent, regroupées sur une seule ligne. Dans ce cas, il faut insérer un espace après l'accolade ouvrante et avant l'accolade fermante.
 
@@ -201,7 +202,7 @@ Cela évite des sélecteurs CSS trop spécifiques,
 
 Vous n'êtes pas un compilateur/compresseur de code humain, alors ne prétendez pas en être un.
 
-Utilisez des noms clairs et réfléchis pour les classes HTML. Choisissez un modèle de nommage cohérent et compréhensif qui a du sens à la fois dans les fichiers HTML et dans les fichiers CSS.
+Utilisez des noms clairs et réfléchis pour les classes HTML. Choisissez un modèle de nommage cohérent et compréhensible qui a du sens à la fois dans les fichiers HTML et dans les fichiers CSS.
 
 ```css
 /* Exemple de code mal nommé */
@@ -229,11 +230,11 @@ Utilisez des noms clairs et réfléchis pour les classes HTML. Choisissez un mod
 <a name="exemple"></a>
 ## 6. Exemple pratique
 
-Un exemple de divers conventions.
+Un exemple de diverses conventions.
 
 ```css
 /* ==========================================================================
-   Construction de la grille
+   Agencement de la grille
    ========================================================================== */
 
 /*
