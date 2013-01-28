@@ -13,6 +13,7 @@ Per favore contribuite.
 ## Traduzioni
 
 * [Inglese](https://github.com/necolas/idiomatic-css)
+* [Portoghese](https://github.com/necolas/idiomatic-css/tree/master/translations/pt-BR)
 * [Serbo](https://github.com/necolas/idiomatic-css/tree/master/translations/sr)
 
 
@@ -215,7 +216,7 @@ potrebbero essere usati; di seguito ne viene mostrato un esempio.
 * Usate in modo consistente gli apici singoli o doppi. La preferenza è per i
   doppi apici, es., `content: ""`.
 * Racchiudete sempre tra apici i valori degli attributi nei selettori, es.,
-  `input[type="checkout"]`.
+  `input[type="checkbox"]`.
 * _Dove permesso_, evitate di specificare l'unità di misura per i valori pari a
   zero, es., `margin: 0`.
 
